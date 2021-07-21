@@ -32,7 +32,7 @@ email.onkeydown = () => {
   }
 };
 
-firstName.onkeydown = () => {
+firstName.onkeyup = () => {
   if (firstName.value === '') {
 
     fNameErrorIcon.style.visibility = 'visible';
@@ -49,7 +49,7 @@ firstName.onkeydown = () => {
   }
 };  
 
-  lastName.onkeydown = () => {
+  lastName.onkeyup = () => {
     if (lastName.value === '') {
 
       lNameErrorIcon.style.visibility = 'visible';
@@ -66,7 +66,7 @@ firstName.onkeydown = () => {
     }
   };
 
-    psswd.onkeydown = () => {
+    psswd.onkeyup = () => {
       if (psswd.value === '') {
 
         psswdErrorIcon.style.visibility = 'visible';

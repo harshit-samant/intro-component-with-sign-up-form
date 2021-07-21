@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.background {
+  padding: 10vh 10vw;
+  background: #FF7A7A url('../images/bg-intro-desktop.png') no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* col---1 */
+.hero-heading {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+}
+
+.hero-para {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+/* col---2 */
+.purple-banner {
+  height: 60px;
+  max-width: 540px;
+  border-radius: 10px;
+  background-color: #6055A5;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.banner-txt {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.banner-txt-half {
+  font-weight: 600;
+}
+
+.form {
+  min-height: 470px;
+  max-width: 540px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5vh 5vw;
+}
+
+.input {
+  width: 100%;
+  height: 55px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  padding-left: 20px;
+  color: #3E3C49;
+}
+
+.input-normal {
+  border-color:rgba(62, 60, 73, 0.25);
+}
+
+.input-red {
+  border-color: #FF7A7A;
+}
+
+.input-red:focus {
+  outline: none;
+  border-color: #FF7A7A;
+}
+
+.input-normal:focus {
+  outline: none;
+  border-color: #3E3C49;
+}
+
+.error-icon {
+  position: absolute;
+  padding-top: 15px;
+  right: 16%;
+  visibility: hidden;
+}
+
+.error-txt {
+  font-size: 11px;
+  font-weight: 600;
+  font-style: italic;
+  color: #FF7A7A;
+  visibility: hidden;
+}
+
+.btn-green {
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+  background: #38CC8C;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.btn-green:hover {
+  opacity: 0.7;
+}
+
+.terms {
+  font-weight: 600;
+  font-size: 11px;
+  color: #B8B5D3;
+}
+
+@media (max-width: 517px) {
+
+  .background {
+    padding: 10vh 10vw;
+  }
+
+  .hero-heading {
+    font-size: 34px;
+  }
+
+  .banner-txt {
+    font-size: 13px;
+  }
+}
